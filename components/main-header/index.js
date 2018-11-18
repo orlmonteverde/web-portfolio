@@ -31,7 +31,7 @@ const MainHeader = () => (
       >
         Resuelvo problemas
       </Typography>
-      <Button variant='contained' color='secondary' className=''>¿Como puedo ayudarte?</Button>
+      <Button variant='contained' color='primary' className=''>¿Como puedo ayudarte?</Button>
     </div>
   </header>
 )

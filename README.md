@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="http://devsstore.net"><img src="http://devsstore.net/assets/images/logo.png" alt="DevsStore Logo" width="200"></a>
+  <a href="http://devsstore.net"><img src="http://devsstore.net/assets/images/logo.png" alt="DevsStore Logo" width="300"></a>
 </h1>
 
 # Web Portfolio

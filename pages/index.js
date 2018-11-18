@@ -1,13 +1,14 @@
 import Head from 'next/head'
 import { Fragment, Component } from 'react'
 import CssBaseline from '@material-ui/core/CssBaseline'
-// import Grid from '@material-ui/core/Grid'
-// import FolderIcon from '@material-ui/icons/Folder'
+import { MuiThemeProvider } from '@material-ui/core/styles'
 
 import GetRepos from '../services/get-repositories'
 import MainHeader from '../components/main-header'
 import Repositories from '../components/repositories'
 import Spinner from '../components/spinner'
+
+import { theme } from '../config/theme'
 
 class Index extends Component {
   constructor () {
@@ -39,9 +40,11 @@ class Index extends Component {
           <link rel='icon' href='/static/favicon.png' />
           <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' />
         </Head>
-        <MainHeader />
-        <CssBaseline />
-        { this.state.repos ? <Repositories repos={this.state.repos} /> : <Spinner /> }
+        <MuiThemeProvider theme={theme}>
+          <MainHeader />
+          <CssBaseline />
+          { this.state.repos ? <Repositories repos={this.state.repos} /> : <Spinner /> }
+        </MuiThemeProvider>
       </Fragment>
     )
   }
