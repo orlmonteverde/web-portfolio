@@ -24,7 +24,10 @@ class Index extends Component {
 
   getRepos () {
     GetRepos()
-      .then(result => this.setState({ repos: result.data }))
+      .then(result => {
+        let repositories = result.data.filter(repo => !repo.fork && repo.name !== 'orlmonteverde.github.io')
+        this.setState({ repos: repositories })
+      })
       .catch(err => console.log(err))
   }
 
@@ -34,6 +37,7 @@ class Index extends Component {
         <Head>
           <title>Orlando Monteverde</title>
           <link rel='icon' href='/static/favicon.png' />
+          <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' />
         </Head>
         <MainHeader />
         <CssBaseline />

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Personal portfolio",
   "main": "index.js",
-  "repository": "https://github.com/orlmonteverde/orlmonteverde.github.io.git",
+  "repository": "https://github.com/orlmonteverde/web-portfolio.git",
   "scripts": {
     "dev": "next",
     "export": "next export",
