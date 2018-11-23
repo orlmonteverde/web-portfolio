@@ -5,13 +5,12 @@
   "main": "index.js",
   "engines": {
     "node": "v8.12.0",
-    "yarn": "1.x",
-    "npm": "6.x"
+    "yarn": "1.x"
   },
   "repository": "https://github.com/orlmonteverde/web-portfolio.git",
   "scripts": {
     "dev": "next",
-    "start": "next start -p $PORT",
+    "start": "NODE_ENV=production node server.js",
     "build": "next build",
     "heroku-postbuild": "next build"
   },
@@ -26,6 +25,7 @@
     "@material-ui/core": "^3.3.2",
     "@material-ui/icons": "^3.0.1",
     "axios": "^0.18.0",
+    "express": "^4.16.4",
     "next": "^7.0.2",
     "prop-types": "^15.6.2",
     "react": "^16.6.0",
