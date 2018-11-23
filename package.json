@@ -15,7 +15,8 @@
   "private": false,
   "devDependencies": {
     "@zeit/next-sass": "^1.0.1",
-    "node-sass": "^4.10.0"
+    "node-sass": "^4.10.0",
+    "webpack": "^4.26.0"
   },
   "dependencies": {
     "@material-ui/core": "^3.3.2",
