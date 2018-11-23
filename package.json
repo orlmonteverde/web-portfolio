@@ -2,13 +2,9 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Personal portfolio",
-  "main": "index.js",
-  "engines": {
-    "node": "v8.12.0",
-    "yarn": "1.x"
-  },
   "repository": "https://github.com/orlmonteverde/web-portfolio.git",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
     "build": "next build",
     "start": "next start -p $PORT",
