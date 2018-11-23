@@ -5,11 +5,10 @@
   "main": "index.js",
   "repository": "https://github.com/orlmonteverde/web-portfolio.git",
   "scripts": {
-    "dev": "next",
-    "export": "next export",
-    "build": "next build",
     "start": "next start -p $PORT",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "next build"
+  }
+}
   },
   "author": "Orlando Monteverde",
   "license": "MIT",

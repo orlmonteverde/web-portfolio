@@ -471,3 +471,7 @@ yarn-error.log*
 # evironment
 config/github-keys.json
 out/
+
+node_modules/
+.next/
+*.log
