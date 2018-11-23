@@ -1,39 +1,40 @@
-import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
+import Button from '@material-ui/core/Button'
+import Grid from '@material-ui/core/Grid'
 
 import styles from './index.scss'
 
 const MainHeader = () => (
-  <header className={styles.Header}>
-    <div className={styles.HeaderContent}>
+  <Grid
+    className={styles.Header}
+    container
+    justify='center'
+    component='header'
+  >
+    <Grid item xs={12} className={styles.HeaderContent}>
       <Typography
         align='center'
-        variant='h3'
+        variant='h2'
         component='h1'
         className={styles.HeaderTitle}
       >
         Orlando Monteverde
       </Typography>
+      <img src='/static/profile.png' alt='Orlando Monteverde Photo' className={styles.HeaderImg} />
+    
       <Typography
+        className={styles.HeaderSubtitle}
         align='center'
         variant='h4'
-        className={styles.HeaderSubtitle}
-        component='h2'
+        component='h3'
       >
         Web Developer
       </Typography>
-      <img src='/static/profile.png' alt='Orlando Monteverde Photo' className={styles.HeaderImg} />
-      <Typography
-        align='center'
-        variant='h4'
-        className={styles.HeaderLabel}
-        component='p'
-      >
+      <Button color='primary'>
         Resuelvo problemas
-      </Typography>
-      <Button variant='contained' color='primary' className=''>¿Como puedo ayudarte?</Button>
-    </div>
-  </header>
+      </Button>
+    </Grid>
+  </Grid>
 )
 
 export default MainHeader

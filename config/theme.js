@@ -12,7 +12,7 @@ export const theme = createMuiTheme({
     },
     secondary: {
       main: teal[500],
-      lihgt: '#52c7b8',
+      light: '#52c7b8',
       dark: '#00675b',
       constrastText: '#000'
     }
