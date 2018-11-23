@@ -2,7 +2,7 @@ import Typography from '@material-ui/core/Typography'
 import Button from '@material-ui/core/Button'
 import Grid from '@material-ui/core/Grid'
 
-import styles from './index.scss'
+import styles from './index.css'
 
 const MainHeader = () => (
   <Grid
@@ -20,8 +20,7 @@ const MainHeader = () => (
       >
         Orlando Monteverde
       </Typography>
-      <img src='/static/profile.png' alt='Orlando Monteverde Photo' className={styles.HeaderImg} />
-    
+      <img src='/static/profile.png' alt='Orlando Monteverde Photo' className={styles.HeaderImg} />   
       <Typography
         className={styles.HeaderSubtitle}
         align='center'

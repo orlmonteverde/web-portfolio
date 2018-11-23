@@ -24,7 +24,10 @@
       "multi node_modules/next/dist/pages/_document.js": 20,
       "node_modules/next/dist/pages/_document.js": 21,
       "external \"next/document\"": 22,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/index.js 687b3b038fe5d48973d628d898bb5910": 23
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/index.js 687b3b038fe5d48973d628d898bb5910": 23,
+      "node_modules/css-loader/locals.js??ref--5-0!components/main-header/index.css": 1,
+      "node_modules/css-loader/locals.js??ref--5-0!components/spinner/index.css": 3,
+      "node_modules/css-loader/locals.js??ref--5-0!components/repositories/index.css": 9
     },
     "usedIds": {
       "0": 0,
@@ -74,7 +77,15 @@
       "static/HHV3G1LIlip1xxu65v2vu/pages/_error.js": 0,
       "static/HHV3G1LIlip1xxu65v2vu/pages/index.js": 1,
       "static/HHV3G1LIlip1xxu65v2vu/pages/_app.js": 2,
-      "static/HHV3G1LIlip1xxu65v2vu/pages/_document.js": 3
+      "static/HHV3G1LIlip1xxu65v2vu/pages/_document.js": 3,
+      "static/4JouThj65ZRd935QlMTg1/pages/_error.js": 4,
+      "static/4JouThj65ZRd935QlMTg1/pages/index.js": 5,
+      "static/4JouThj65ZRd935QlMTg1/pages/_app.js": 6,
+      "static/4JouThj65ZRd935QlMTg1/pages/_document.js": 7,
+      "static/Z_XSOzlLas3axHwVWWEQG/pages/_error.js": 0,
+      "static/Z_XSOzlLas3axHwVWWEQG/pages/index.js": 1,
+      "static/Z_XSOzlLas3axHwVWWEQG/pages/_app.js": 2,
+      "static/Z_XSOzlLas3axHwVWWEQG/pages/_document.js": 3
     },
     "bySource": {},
     "usedIds": [

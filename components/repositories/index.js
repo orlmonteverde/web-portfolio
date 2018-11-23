@@ -1,4 +1,4 @@
-import styles from './index.scss'
+import styles from './index.css'
 
 const Repositories = ({ repos }) => (
   <div>

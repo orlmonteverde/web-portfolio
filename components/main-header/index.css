@@ -1,0 +1,38 @@
+/*
+    --color-primary: #4a148c; // purple darken-4
+    --color-secondary: #009688; // Teal
+    --color-dark: #263238; // blue-grey darken-4
+*/
+
+.Header {
+    background: linear-gradient(to right, rgba(74, 20, 140,.5), rgba(0, 150, 136, 0.5)), url('/static/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeaderContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeaderImg {
+    --size: 10rem;
+    width: var(--size);
+    height: var(--size);
+    background-color: #fff;
+    border-radius: 50%;
+    border: .2rem solid rgba(#fff, .8);
+    box-shadow: 3px 3px 0 3px rgba(#333, .3);
+    margin: 1rem auto;
+}

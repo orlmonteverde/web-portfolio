@@ -466,7 +466,14 @@
       "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/index.js a61ebfa21b0608409fa5e0158c9efec3": 391,
       "node_modules/next/node_modules/webpack/buildin/global.js": 53,
       "node_modules/next/node_modules/webpack/buildin/module.js": 140,
-      "node_modules/next/node_modules/webpack/buildin/harmony-module.js": 310
+      "node_modules/next/node_modules/webpack/buildin/harmony-module.js": 310,
+      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!components/main-header/index.css": 45,
+      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!components/spinner/index.css": 71,
+      "node_modules/node-libs-browser/node_modules/punycode/punycode.js": 236,
+      "css node_modules/css-loader/index.js??ref--5-1!components/main-header/index.css 0": 301,
+      "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!components/repositories/index.css": 377,
+      "css node_modules/css-loader/index.js??ref--5-1!components/repositories/index.css 0": 378,
+      "css node_modules/css-loader/index.js??ref--5-1!components/spinner/index.css 0": 379
     },
     "usedIds": {
       "0": 0,
@@ -883,7 +890,13 @@
       "static/tZOhzvM1voTFvC_MQx48a/pages/_app.js": 9,
       "static/HHV3G1LIlip1xxu65v2vu/pages/_error.js": 3,
       "static/HHV3G1LIlip1xxu65v2vu/pages/index.js": 4,
-      "static/HHV3G1LIlip1xxu65v2vu/pages/_app.js": 5
+      "static/HHV3G1LIlip1xxu65v2vu/pages/_app.js": 5,
+      "static/4JouThj65ZRd935QlMTg1/pages/_error.js": 7,
+      "static/4JouThj65ZRd935QlMTg1/pages/index.js": 8,
+      "static/4JouThj65ZRd935QlMTg1/pages/_app.js": 9,
+      "static/Z_XSOzlLas3axHwVWWEQG/pages/_error.js": 3,
+      "static/Z_XSOzlLas3axHwVWWEQG/pages/index.js": 4,
+      "static/Z_XSOzlLas3axHwVWWEQG/pages/_app.js": 5
     },
     "bySource": {},
     "usedIds": [
@@ -895,5 +908,74 @@
       5,
       6
     ]
-  }
+  },
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/main-header/index.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js??ref--5-1!components/main-header/index.css": 0,
+          "node_modules/css-loader/lib/css-base.js": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/repositories/index.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js??ref--5-1!components/repositories/index.css": 0,
+          "node_modules/css-loader/lib/css-base.js": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/spinner/index.css": [
+    {
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/index.js??ref--5-1!components/spinner/index.css": 0,
+          "node_modules/css-loader/lib/css-base.js": 1
+        },
+        "usedIds": {
+          "0": 0,
+          "1": 1
+        }
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ]
 }
