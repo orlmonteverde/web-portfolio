@@ -461,7 +461,9 @@
       "node_modules/next/app.js": 388,
       "node_modules/next/dist/lib/app.js": 389,
       "node_modules/@babel/runtime-corejs2/helpers/extends.js": 390,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/index.js 687b3b038fe5d48973d628d898bb5910": 391
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/index.js 687b3b038fe5d48973d628d898bb5910": 391,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!services/get-repositories.js": 165,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/index.js a61ebfa21b0608409fa5e0158c9efec3": 391
     },
     "usedIds": {
       "0": 0,
@@ -869,17 +871,20 @@
       "styles": 6,
       "static/kRCmaquM2LwwwKT1AYmPh/pages/_error.js": 7,
       "static/kRCmaquM2LwwwKT1AYmPh/pages/index.js": 8,
-      "static/kRCmaquM2LwwwKT1AYmPh/pages/_app.js": 9
+      "static/kRCmaquM2LwwwKT1AYmPh/pages/_app.js": 9,
+      "static/r_I0kt89XFQyo9IHR88YD/pages/_error.js": 3,
+      "static/r_I0kt89XFQyo9IHR88YD/pages/index.js": 4,
+      "static/r_I0kt89XFQyo9IHR88YD/pages/_app.js": 5
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
       2,
-      6,
-      7,
-      8,
-      9
+      3,
+      4,
+      5,
+      6
     ]
   }
 }
