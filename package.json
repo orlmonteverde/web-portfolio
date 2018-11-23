@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "Personal portfolio",
   "main": "index.js",
+  "engines": {
+    "node": "v8.12.0"
+  },
   "repository": "https://github.com/orlmonteverde/web-portfolio.git",
   "scripts": {
+    "dev": "next",
     "start": "next start -p $PORT",
+    "build": "next build",
     "heroku-postbuild": "next build"
   },
   "author": "Orlando Monteverde",
