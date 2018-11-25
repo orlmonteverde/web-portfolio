@@ -1,15 +1,24 @@
+import Typography from '@material-ui/core/Typography'
+
 import styles from './index.scss'
+import RepositoryCard from '../repository-card'
 
 const Repositories = ({ repos }) => (
-  <div>
-    <h2>Repositories works!</h2>
-    <ul>
-      {repos.map((r, i) => (
-        <li key={r.id}>
-          {r.name}
-        </li>
-      ))}
-    </ul>
+  <div className={styles.Repositories}>
+    <Typography
+      className={styles.RepositoriesTitle}
+      color='textPrimary'
+      align='center'
+      component='h3'
+      gutterButton
+      variant='h3'
+      style={{ width: '100%', margin: '2rem auto' }}
+    >
+      Proyectos
+    </Typography>
+    {repos.map((repo) => (
+      <RepositoryCard repo={repo} key={repo.id} />
+    ))}
   </div>
 )
 

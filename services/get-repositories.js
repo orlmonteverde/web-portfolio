@@ -5,9 +5,7 @@ const CONFIG = {
   'client_secret': process.env.CLIENT_SECRET
 }
 
-const URL = 'https://api.github.com/users/orlmonteverde/repos'
-
-const GetRepos = () => {
+const GetRepos = (URL) => {
   return axios.get(URL, CONFIG)
 }
 

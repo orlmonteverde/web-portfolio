@@ -93,6 +93,81 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./components/about-me/index.js":
+/*!**************************************!*\
+  !*** ./components/about-me/index.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core/Typography */ "@material-ui/core/Typography");
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.scss */ "./components/about-me/index.scss");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/home/orlando/Webprojects/React/portfolio/components/about-me/index.js";
+
+
+
+
+var AboutMe = function AboutMe(_ref) {
+  var repos = _ref.repos;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Aboutme,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    color: "textPrimary",
+    align: "center",
+    component: "h3",
+    gutterButton: true,
+    variant: "h3",
+    style: {
+      width: '100%',
+      margin: '2rem auto'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, "\xBFQui\xE9n soy?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    component: "p",
+    variant: "subtitle1",
+    style: {
+      width: '100%'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "Mi nombre es Orlando, soy Desarrollador web especializado en Go (Golang) y JavaScript. Tambi\xE9n soy profesor, blogger, entusiasta del software libre y un friki de la inform\xE1tica a tiempo completo."));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (AboutMe);
+
+/***/ }),
+
+/***/ "./components/about-me/index.scss":
+/*!****************************************!*\
+  !*** ./components/about-me/index.scss ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {
+	"Aboutme": "_2X0cjY7iXHbj0jQ2Fetldo"
+};
+
+/***/ }),
+
 /***/ "./components/main-header/index.js":
 /*!*****************************************!*\
   !*** ./components/main-header/index.js ***!
@@ -106,10 +181,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core/Typography */ "@material-ui/core/Typography");
 /* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/Button */ "@material-ui/core/Button");
-/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/Grid */ "@material-ui/core/Grid");
-/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/Grid */ "@material-ui/core/Grid");
+/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _social_button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../social-button */ "./components/social-button/index.js");
 /* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./index.scss */ "./components/main-header/index.scss");
 /* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/home/orlando/Webprojects/React/portfolio/components/main-header/index.js";
@@ -120,23 +194,23 @@ var _jsxFileName = "/home/orlando/Webprojects/React/portfolio/components/main-he
 
 
 var MainHeader = function MainHeader() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2___default.a, {
     className: _index_scss__WEBPACK_IMPORTED_MODULE_4___default.a.Header,
     container: true,
     justify: "center",
     component: "header",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2___default.a, {
     item: true,
     xs: 12,
     className: _index_scss__WEBPACK_IMPORTED_MODULE_4___default.a.HeaderContent,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -146,33 +220,43 @@ var MainHeader = function MainHeader() {
     className: _index_scss__WEBPACK_IMPORTED_MODULE_4___default.a.HeaderTitle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
-  }, "Orlando Monteverde"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/profile.png",
-    alt: "Orlando Monteverde Photo",
-    className: _index_scss__WEBPACK_IMPORTED_MODULE_4___default.a.HeaderImg,
+  }, "Orlando Monteverde"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_4___default.a.HeaderImgContainer,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 24
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: _index_scss__WEBPACK_IMPORTED_MODULE_4___default.a.HeaderSubtitle,
-    align: "center",
-    variant: "h4",
-    component: "h3",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/profile.jpg",
+    alt: "Orlando Monteverde Photo",
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_4___default.a.HeaderImg,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
-  }, "Web Developer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    color: "primary",
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_4___default.a.HeaderSubtitle,
+    style: {
+      marginBottom: '1rem'
+    },
+    align: "center",
+    variant: "h4",
+    component: "h3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 27
+    },
+    __self: this
+  }, "Web Developer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_social_button__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_4___default.a.HeaderSocialButton,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
     },
     __self: this
   }, "Resuelvo problemas")));
@@ -192,7 +276,9 @@ var MainHeader = function MainHeader() {
 module.exports = {
 	"Header": "_3kY49n2SAZ358emRD57TKt",
 	"HeaderContent": "QDd5NCYFmUgvxXVu0WHCL",
-	"HeaderImg": "_1mHmISh7o8huJXLtlwWurP"
+	"HeaderImgContainer": "_2CUya2e0ujQNKZdjZXa7em",
+	"HeaderImg": "_1mHmISh7o8huJXLtlwWurP",
+	"HeaderSocialButton": "_3hCbVbkyrwihwpWmhO5EQX"
 };
 
 /***/ }),
@@ -208,42 +294,53 @@ module.exports = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.scss */ "./components/repositories/index.scss");
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core/Typography */ "@material-ui/core/Typography");
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.scss */ "./components/repositories/index.scss");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _repository_card__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../repository-card */ "./components/repository-card/index.js");
 var _jsxFileName = "/home/orlando/Webprojects/React/portfolio/components/repositories/index.js";
+
+
 
 
 
 var Repositories = function Repositories(_ref) {
   var repos = _ref.repos;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_2___default.a.Repositories,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 7
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    className: _index_scss__WEBPACK_IMPORTED_MODULE_2___default.a.RepositoriesTitle,
+    color: "textPrimary",
+    align: "center",
+    component: "h3",
+    gutterButton: true,
+    variant: "h3",
+    style: {
+      width: '100%',
+      margin: '2rem auto'
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 8
     },
     __self: this
-  }, "Repositories works!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, repos.map(function (r, i) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      key: r.id,
+  }, "Proyectos"), repos.map(function (repo) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_repository_card__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      repo: repo,
+      key: repo.id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 8
+        lineNumber: 20
       },
       __self: this
-    }, r.name);
-  })));
+    });
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Repositories);
@@ -257,7 +354,287 @@ var Repositories = function Repositories(_ref) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+module.exports = {
+	"Repositories": "_162zYO2QG-bKYDN_YNE_XF"
+};
 
+/***/ }),
+
+/***/ "./components/repository-card/index.js":
+/*!*********************************************!*\
+  !*** ./components/repository-card/index.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _material_ui_core_Card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core/Card */ "@material-ui/core/Card");
+/* harmony import */ var _material_ui_core_Card__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Card__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _material_ui_core_CardActionArea__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/CardActionArea */ "@material-ui/core/CardActionArea");
+/* harmony import */ var _material_ui_core_CardActionArea__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_CardActionArea__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_core_CardActions__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/CardActions */ "@material-ui/core/CardActions");
+/* harmony import */ var _material_ui_core_CardActions__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_CardActions__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _material_ui_core_CardContent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/CardContent */ "@material-ui/core/CardContent");
+/* harmony import */ var _material_ui_core_CardContent__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_CardContent__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _material_ui_core_CardMedia__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core/CardMedia */ "@material-ui/core/CardMedia");
+/* harmony import */ var _material_ui_core_CardMedia__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_CardMedia__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/Button */ "@material-ui/core/Button");
+/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material-ui/core/Typography */ "@material-ui/core/Typography");
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_7__);
+var _jsxFileName = "/home/orlando/Webprojects/React/portfolio/components/repository-card/index.js";
+
+
+
+
+
+
+
+
+var styles = {
+  width: '30%',
+  maxWidth: 345,
+  minWidth: 200,
+  marginBottom: '1rem'
+};
+
+var RepositoryCard = function RepositoryCard(_ref) {
+  var repo = _ref.repo;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Card__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    style: styles,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_CardActionArea__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_CardMedia__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    component: "img",
+    alt: "programming language image",
+    style: {
+      objectFit: 'cover'
+    },
+    height: "140",
+    image: "/static/wallpaper.jpg",
+    title: "Programming language image",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_CardContent__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_7___default.a, {
+    color: "primary",
+    component: "h3",
+    variant: "subheading",
+    gutterButton: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, repo.name.toUpperCase()), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_7___default.a, {
+    component: "p",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, repo.description))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_CardActions__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_6___default.a, {
+    size: "small",
+    color: "primary",
+    component: "a",
+    href: repo.html_url,
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, "Resositorio"), repo.homepage && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_6___default.a, {
+    size: "small",
+    color: "secondary",
+    component: "a",
+    href: repo.homepage,
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, "Demo")));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (RepositoryCard);
+
+/***/ }),
+
+/***/ "./components/social-button/index.js":
+/*!*******************************************!*\
+  !*** ./components/social-button/index.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core/Button */ "@material-ui/core/Button");
+/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _material_ui_core_Menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/Menu */ "@material-ui/core/Menu");
+/* harmony import */ var _material_ui_core_Menu__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Menu__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_core_MenuItem__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/MenuItem */ "@material-ui/core/MenuItem");
+/* harmony import */ var _material_ui_core_MenuItem__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_MenuItem__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/ListItem */ "@material-ui/core/ListItem");
+/* harmony import */ var _material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core/ListItemText */ "@material-ui/core/ListItemText");
+/* harmony import */ var _material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/ListItemIcon */ "@material-ui/core/ListItemIcon");
+/* harmony import */ var _material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var material_ui_popup_state_index__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! material-ui-popup-state/index */ "material-ui-popup-state/index");
+/* harmony import */ var material_ui_popup_state_index__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(material_ui_popup_state_index__WEBPACK_IMPORTED_MODULE_7__);
+var _jsxFileName = "/home/orlando/Webprojects/React/portfolio/components/social-button/index.js";
+
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
+
+
+
+
+
+
+
+var socialMedia = [{
+  title: 'Github',
+  icon: 'fab fa-github',
+  url: 'https://github.com/orlmonteverde'
+}, {
+  title: 'Twitter',
+  icon: 'fab fa-twitter',
+  url: 'https://twitter.com/orlmonteverde'
+}, {
+  title: 'Medium',
+  icon: 'fab fa-medium',
+  url: 'https://medium.com/@orlmonteverde'
+}, {
+  title: 'Linkedin',
+  icon: 'fab fa-linkedin',
+  url: 'https://linkedin.com/in/orlmonteverde'
+}];
+
+var SocialButton = function SocialButton(_ref) {
+  var children = _ref.children;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(material_ui_popup_state_index__WEBPACK_IMPORTED_MODULE_7___default.a, {
+    variant: "popover",
+    popupId: "popup-menu",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, function (popupState) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_1___default.a, _extends({
+      color: "secondary",
+      variant: "contained"
+    }, Object(material_ui_popup_state_index__WEBPACK_IMPORTED_MODULE_7__["bindTrigger"])(popupState), {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      className: "fas fa-user",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38
+      },
+      __self: this
+    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      style: {
+        marginLeft: '.5rem'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39
+      },
+      __self: this
+    }, children)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Menu__WEBPACK_IMPORTED_MODULE_2___default.a, _extends({}, Object(material_ui_popup_state_index__WEBPACK_IMPORTED_MODULE_7__["bindMenu"])(popupState), {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 41
+      },
+      __self: this
+    }), socialMedia.map(function (s, i) {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_MenuItem__WEBPACK_IMPORTED_MODULE_3___default.a, {
+        key: i,
+        onClick: popupState.close,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_4___default.a, {
+        component: "a",
+        href: s.url,
+        target: "_blank",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        className: s.icon,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_5___default.a, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
+        },
+        __self: this
+      }, s.title)));
+    })));
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (SocialButton);
 
 /***/ }),
 
@@ -324,17 +701,6 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./config/github-keys.json":
-/*!*********************************!*\
-  !*** ./config/github-keys.json ***!
-  \*********************************/
-/*! exports provided: client_id, client_secret, default */
-/***/ (function(module) {
-
-module.exports = {"client_id":"5df020d93a40e3250582","client_secret":"bbd7278204fb3438001031a218ca4a5b322b6102"};
-
-/***/ }),
-
 /***/ "./config/theme.js":
 /*!*************************!*\
   !*** ./config/theme.js ***!
@@ -396,8 +762,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _services_get_repositories__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../services/get-repositories */ "./services/get-repositories.js");
 /* harmony import */ var _components_main_header__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/main-header */ "./components/main-header/index.js");
 /* harmony import */ var _components_repositories__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/repositories */ "./components/repositories/index.js");
-/* harmony import */ var _components_spinner__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/spinner */ "./components/spinner/index.js");
-/* harmony import */ var _config_theme__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../config/theme */ "./config/theme.js");
+/* harmony import */ var _components_about_me__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/about-me */ "./components/about-me/index.js");
+/* harmony import */ var _components_spinner__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/spinner */ "./components/spinner/index.js");
+/* harmony import */ var _config_theme__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../config/theme */ "./config/theme.js");
 var _jsxFileName = "/home/orlando/Webprojects/React/portfolio/pages/index.js";
 
 
@@ -418,6 +785,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
 
 
 
@@ -457,7 +825,8 @@ function (_Component) {
     value: function getRepos() {
       var _this2 = this;
 
-      Object(_services_get_repositories__WEBPACK_IMPORTED_MODULE_4__["default"])().then(function (result) {
+      var URL = 'https://api.github.com/users/orlmonteverde/repos';
+      Object(_services_get_repositories__WEBPACK_IMPORTED_MODULE_4__["default"])(URL).then(function (result) {
         var repositories = result.data.filter(function (repo) {
           return !repo.fork && repo.name !== 'orlmonteverde.github.io';
         });
@@ -465,6 +834,10 @@ function (_Component) {
         _this2.setState({
           repos: repositories
         });
+
+        console.log(repositories.map(function (r) {
+          return r.language;
+        }));
       }).catch(function (err) {
         return console.log(err);
       });
@@ -475,67 +848,57 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 41
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 42
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
-        },
-        __self: this
-      }, "Orlando Monteverde"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
-        rel: "icon",
-        href: "/static/favicon.png",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 40
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css?family=Roboto:300,400,500",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 41
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__["MuiThemeProvider"], {
-        theme: _config_theme__WEBPACK_IMPORTED_MODULE_8__["theme"],
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 43
+        },
+        __self: this
+      }, "Orlando Monteverde")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__["MuiThemeProvider"], {
+        theme: _config_theme__WEBPACK_IMPORTED_MODULE_9__["theme"],
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_main_header__WEBPACK_IMPORTED_MODULE_5__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 46
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_2___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 47
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_about_me__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
         },
         __self: this
       }), this.state.repos ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_repositories__WEBPACK_IMPORTED_MODULE_6__["default"], {
         repos: this.state.repos,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 49
         },
         __self: this
-      }) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_spinner__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      }) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_spinner__WEBPACK_IMPORTED_MODULE_8__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 49
         },
         __self: this
       })));
@@ -560,14 +923,14 @@ function (_Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "axios");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _config_github_keys_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../config/github-keys.json */ "./config/github-keys.json");
-var _config_github_keys_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../config/github-keys.json */ "./config/github-keys.json", 1);
 
+var CONFIG = {
+  'client_id': process.env.CLIENT_ID,
+  'client_secret': process.env.CLIENT_SECRET
+};
 
-
-var GetRepos = function GetRepos() {
-  var URL = 'https://api.github.com/users/orlmonteverde/repos';
-  return axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(URL, _config_github_keys_json__WEBPACK_IMPORTED_MODULE_1__);
+var GetRepos = function GetRepos(URL) {
+  return axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(URL, CONFIG);
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (GetRepos);
@@ -597,6 +960,61 @@ module.exports = require("@material-ui/core/Button");
 
 /***/ }),
 
+/***/ "@material-ui/core/Card":
+/*!*****************************************!*\
+  !*** external "@material-ui/core/Card" ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/Card");
+
+/***/ }),
+
+/***/ "@material-ui/core/CardActionArea":
+/*!***************************************************!*\
+  !*** external "@material-ui/core/CardActionArea" ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/CardActionArea");
+
+/***/ }),
+
+/***/ "@material-ui/core/CardActions":
+/*!************************************************!*\
+  !*** external "@material-ui/core/CardActions" ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/CardActions");
+
+/***/ }),
+
+/***/ "@material-ui/core/CardContent":
+/*!************************************************!*\
+  !*** external "@material-ui/core/CardContent" ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/CardContent");
+
+/***/ }),
+
+/***/ "@material-ui/core/CardMedia":
+/*!**********************************************!*\
+  !*** external "@material-ui/core/CardMedia" ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/CardMedia");
+
+/***/ }),
+
 /***/ "@material-ui/core/CssBaseline":
 /*!************************************************!*\
   !*** external "@material-ui/core/CssBaseline" ***!
@@ -616,6 +1034,61 @@ module.exports = require("@material-ui/core/CssBaseline");
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/Grid");
+
+/***/ }),
+
+/***/ "@material-ui/core/ListItem":
+/*!*********************************************!*\
+  !*** external "@material-ui/core/ListItem" ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/ListItem");
+
+/***/ }),
+
+/***/ "@material-ui/core/ListItemIcon":
+/*!*************************************************!*\
+  !*** external "@material-ui/core/ListItemIcon" ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/ListItemIcon");
+
+/***/ }),
+
+/***/ "@material-ui/core/ListItemText":
+/*!*************************************************!*\
+  !*** external "@material-ui/core/ListItemText" ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/ListItemText");
+
+/***/ }),
+
+/***/ "@material-ui/core/Menu":
+/*!*****************************************!*\
+  !*** external "@material-ui/core/Menu" ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/Menu");
+
+/***/ }),
+
+/***/ "@material-ui/core/MenuItem":
+/*!*********************************************!*\
+  !*** external "@material-ui/core/MenuItem" ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/MenuItem");
 
 /***/ }),
 
@@ -671,6 +1144,17 @@ module.exports = require("@material-ui/core/styles");
 /***/ (function(module, exports) {
 
 module.exports = require("axios");
+
+/***/ }),
+
+/***/ "material-ui-popup-state/index":
+/*!************************************************!*\
+  !*** external "material-ui-popup-state/index" ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("material-ui-popup-state/index");
 
 /***/ }),
 

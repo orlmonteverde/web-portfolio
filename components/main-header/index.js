@@ -1,6 +1,7 @@
 import Typography from '@material-ui/core/Typography'
-import Button from '@material-ui/core/Button'
 import Grid from '@material-ui/core/Grid'
+
+import SocialButton from '../social-button'
 
 import styles from './index.scss'
 
@@ -20,18 +21,19 @@ const MainHeader = () => (
       >
         Orlando Monteverde
       </Typography>
-      <img src='/static/profile.png' alt='Orlando Monteverde Photo' className={styles.HeaderImg} />   
+      <div className={styles.HeaderImgContainer}>
+        <img src='/static/profile.jpg' alt='Orlando Monteverde Photo' className={styles.HeaderImg} />
+      </div>
       <Typography
         className={styles.HeaderSubtitle}
+        style={{ marginBottom: '1rem' }}
         align='center'
         variant='h4'
         component='h3'
       >
         Web Developer
       </Typography>
-      <Button color='primary'>
-        Resuelvo problemas
-      </Button>
+      <SocialButton className={styles.HeaderSocialButton}>Resuelvo problemas</SocialButton>
     </Grid>
   </Grid>
 )

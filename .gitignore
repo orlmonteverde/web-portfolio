@@ -470,3 +470,4 @@ yarn-error.log*
 
 # evironment
 out/
+.next/
