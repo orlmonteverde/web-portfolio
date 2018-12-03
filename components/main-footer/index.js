@@ -9,73 +9,59 @@ import styles from './index.scss'
 const skills = [
   {
     image: '/static/icons/go.jpg',
-    label: 'Go (Golang)',
-    url: 'http://golang.org/'
+    label: 'Go (Golang)'
   },
   {
     image: '/static/icons/javascript.jpg',
-    label: 'Javascript',
-    url: 'https://developer.mozilla.org/es/docs/Web/JavaScript'
+    label: 'Javascript'
   },
   {
     image: '/static/icons/python.jpg',
-    label: 'Python',
-    url: 'https://developer.mozilla.org/es/docs/Web/JavaScript'
+    label: 'Python'
   },
   {
     image: '/static/icons/html5.jpg',
-    label: 'HTML5',
-    url: 'https://developer.mozilla.org/es/docs/Web/JavaScript'
+    label: 'HTML5'
   },
   {
     image: '/static/icons/react.jpg',
-    label: 'React',
-    url: 'http://golang.org/'
+    label: 'React'
   },
   {
     image: '/static/icons/nodejs.jpg',
-    label: 'Nodejs',
-    url: 'http://golang.org/'
+    label: 'Nodejs'
   },
   {
     image: '/static/icons/nextjs.jpg',
-    label: 'Nextjs',
-    url: 'http://golang.org/'
+    label: 'Nextjs'
   },
   {
     image: '/static/icons/echo.jpg',
-    label: 'Echo',
-    url: 'http://golang.org/'
+    label: 'Echo'
   },
   {
     image: '/static/icons/mongodb.jpg',
-    label: 'MongoDB',
-    url: 'https://www.mongodb.com/'
+    label: 'MongoDB'
   },
   {
     image: '/static/icons/postgres.jpg',
-    label: 'PostgreSQL',
-    url: 'https://www.postgresql.org/'
+    label: 'PostgreSQL'
   },
   {
     image: '/static/icons/firebase.jpg',
-    label: 'FireBase',
-    url: 'https://firebase.google.com/'
+    label: 'FireBase'
   },
   {
     image: '/static/icons/sass.jpg',
-    label: 'Sass',
-    url: 'https://sass-lang.com/'
+    label: 'Sass'
   },
   {
     image: '/static/icons/materialize.jpg',
-    label: 'Materialize',
-    url: 'http://redux.js.org/'
+    label: 'Materialize'
   },
   {
     image: '/static/icons/bootstrap.jpg',
-    label: 'Bootstrap',
-    url: 'http://redux.js.org/'
+    label: 'Bootstrap'
   }
 ]
 
@@ -92,8 +78,9 @@ const MainFooter = () => (
       Habilidades
     </Typography>
     <div>
-      {skills.map(skill => (
+      {skills.map((skill, i) => (
         <Chip
+          key={i}
           style={{ margin: '.5rem' }}
           avatar={<Avatar src={skill.image} alt={`Logo de ${skill.label}`} />}
           color='secondary'

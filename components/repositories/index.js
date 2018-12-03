@@ -6,11 +6,9 @@ import RepositoryCard from '../repository-card'
 const Repositories = ({ repos }) => (
   <div className={styles.Repositories}>
     <Typography
-      className={styles.RepositoriesTitle}
       color='textPrimary'
       align='center'
       component='h3'
-      gutterButton
       variant='h3'
       style={{ width: '100%', margin: '2rem auto' }}
     >

@@ -30,13 +30,20 @@ const socialMedia = [
   }
 ]
 
-const SocialButton = ({ children }) => (
+const styles = {
+  button: {
+    position: 'fixed',
+    bottom: '1rem',
+    right: '1rem'
+  }
+}
+
+const SocialButton = () => (
   <PopupState variant='popover' popupId='popup-menu'>
     {popupState => (
       <Fragment>
-        <Button color='secondary' variant='contained' {...bindTrigger(popupState)}>
+        <Button color='secondary' variant='fab' style={styles.button} {...bindTrigger(popupState)}>
           <i className='fas fa-user' />
-          <span style={{ marginLeft: '.5rem' }}>{ children }</span>
         </Button>
         <Menu {...bindMenu(popupState)}>
           {socialMedia.map((s, i) => (

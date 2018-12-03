@@ -1,7 +1,7 @@
 import Typography from '@material-ui/core/Typography'
+import Button from '@material-ui/core/Button'
 import Grid from '@material-ui/core/Grid'
 
-import SocialButton from '../social-button'
 import styles from './index.scss'
 
 const MainHeader = () => (
@@ -31,9 +31,14 @@ const MainHeader = () => (
         variant='h4'
         component='h3'
       >
-        Web Developer: <span style={{ color: '#ccc' }}>Resuelvo problemas</span>
+        Web Developer
       </Typography>
-      <SocialButton className={styles.HeaderSocialButton}>¡Hablemos!</SocialButton>
+      <Button
+        color='primary'
+        style={{ cursor: 'default' }}
+      >
+        Resuelvo problemas
+      </Button>
     </Grid>
   </Grid>
 )

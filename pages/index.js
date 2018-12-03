@@ -9,6 +9,7 @@ import MainFooter from '../components/main-footer'
 import Repositories from '../components/repositories'
 import AboutMe from '../components/about-me'
 import Spinner from '../components/spinner'
+import SocialButton from '../components/social-button'
 
 import { theme } from '../config/theme'
 
@@ -32,7 +33,6 @@ class Index extends Component {
         let repositories = result.data
           .filter(repo => !repo.fork && repo.homepage)
         this.setState({ repos: repositories })
-        console.log(repositories.map(r => r.language))
       })
       .catch(err => console.log(err))
   }
@@ -47,8 +47,9 @@ class Index extends Component {
           <MainHeader />
           <CssBaseline />
           <AboutMe />
-          { /* this.state.repos ? <Repositories repos={this.state.repos} /> : <Spinner /> */}
+          { this.state.repos ? <Repositories repos={this.state.repos} /> : <Spinner /> }
           <MainFooter />
+          <SocialButton />
         </MuiThemeProvider>
       </Fragment>
     )

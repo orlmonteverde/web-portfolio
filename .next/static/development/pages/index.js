@@ -92,60 +92,46 @@ var _jsxFileName = "/home/orlando/Webprojects/React/portfolio/components/main-fo
 
 var skills = [{
   image: '/static/icons/go.jpg',
-  label: 'Go (Golang)',
-  url: 'http://golang.org/'
+  label: 'Go (Golang)'
 }, {
   image: '/static/icons/javascript.jpg',
-  label: 'Javascript',
-  url: 'https://developer.mozilla.org/es/docs/Web/JavaScript'
+  label: 'Javascript'
 }, {
   image: '/static/icons/python.jpg',
-  label: 'Python',
-  url: 'https://developer.mozilla.org/es/docs/Web/JavaScript'
+  label: 'Python'
 }, {
   image: '/static/icons/html5.jpg',
-  label: 'HTML5',
-  url: 'https://developer.mozilla.org/es/docs/Web/JavaScript'
+  label: 'HTML5'
 }, {
   image: '/static/icons/react.jpg',
-  label: 'React',
-  url: 'http://golang.org/'
+  label: 'React'
 }, {
   image: '/static/icons/nodejs.jpg',
-  label: 'Nodejs',
-  url: 'http://golang.org/'
+  label: 'Nodejs'
 }, {
   image: '/static/icons/nextjs.jpg',
-  label: 'Nextjs',
-  url: 'http://golang.org/'
+  label: 'Nextjs'
 }, {
   image: '/static/icons/echo.jpg',
-  label: 'Echo',
-  url: 'http://golang.org/'
+  label: 'Echo'
 }, {
   image: '/static/icons/mongodb.jpg',
-  label: 'MongoDB',
-  url: 'https://www.mongodb.com/'
+  label: 'MongoDB'
 }, {
   image: '/static/icons/postgres.jpg',
-  label: 'PostgreSQL',
-  url: 'https://www.postgresql.org/'
+  label: 'PostgreSQL'
 }, {
   image: '/static/icons/firebase.jpg',
-  label: 'FireBase',
-  url: 'https://firebase.google.com/'
+  label: 'FireBase'
 }, {
   image: '/static/icons/sass.jpg',
-  label: 'Sass',
-  url: 'https://sass-lang.com/'
+  label: 'Sass'
 }, {
   image: '/static/icons/materialize.jpg',
-  label: 'Materialize',
-  url: 'http://redux.js.org/'
+  label: 'Materialize'
 }, {
   image: '/static/icons/bootstrap.jpg',
-  label: 'Bootstrap',
-  url: 'http://redux.js.org/'
+  label: 'Bootstrap'
 }];
 
 var MainFooter = function MainFooter() {
@@ -156,7 +142,7 @@ var MainFooter = function MainFooter() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 69
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -172,17 +158,18 @@ var MainFooter = function MainFooter() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 70
     },
     __self: this
   }, "Habilidades"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 80
     },
     __self: this
-  }, skills.map(function (skill) {
+  }, skills.map(function (skill, i) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Chip__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      key: i,
       style: {
         margin: '.5rem'
       },
@@ -191,7 +178,7 @@ var MainFooter = function MainFooter() {
         alt: "Logo de ".concat(skill.label),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 85
         },
         __self: this
       }),
@@ -199,7 +186,7 @@ var MainFooter = function MainFooter() {
       label: skill.label,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 96
+        lineNumber: 82
       },
       __self: this
     });
@@ -223,9 +210,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core/Typography */ "./node_modules/@material-ui/core/Typography/index.js");
 /* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/Grid */ "./node_modules/@material-ui/core/Grid/index.js");
-/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _social_button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../social-button */ "./components/social-button/index.js");
+/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/Button */ "./node_modules/@material-ui/core/Button/index.js");
+/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/Grid */ "./node_modules/@material-ui/core/Grid/index.js");
+/* harmony import */ var _material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./index.scss */ "./components/main-header/index.scss");
 /* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/home/orlando/Webprojects/React/portfolio/components/main-header/index.js";
@@ -236,7 +224,7 @@ var _jsxFileName = "/home/orlando/Webprojects/React/portfolio/components/main-he
 
 
 var MainHeader = function MainHeader() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3___default.a, {
     className: _index_scss__WEBPACK_IMPORTED_MODULE_4___default.a.Header,
     container: true,
     justify: "center",
@@ -246,7 +234,7 @@ var MainHeader = function MainHeader() {
       lineNumber: 8
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_3___default.a, {
     item: true,
     xs: 12,
     className: _index_scss__WEBPACK_IMPORTED_MODULE_4___default.a.HeaderContent,
@@ -298,23 +286,17 @@ var MainHeader = function MainHeader() {
       lineNumber: 27
     },
     __self: this
-  }, "Web Developer: ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, "Web Developer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    color: "primary",
     style: {
-      color: '#ccc'
+      cursor: 'default'
     },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, "Resuelvo problemas")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_social_button__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    className: _index_scss__WEBPACK_IMPORTED_MODULE_4___default.a.HeaderSocialButton,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36
     },
     __self: this
-  }, "\xA1Hablemos!")));
+  }, "Resuelvo problemas")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (MainHeader);
@@ -353,11 +335,9 @@ var Repositories = function Repositories(_ref) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: _index_scss__WEBPACK_IMPORTED_MODULE_2___default.a.RepositoriesTitle,
     color: "textPrimary",
     align: "center",
     component: "h3",
-    gutterButton: true,
     variant: "h3",
     style: {
       width: '100%',
@@ -374,7 +354,7 @@ var Repositories = function Repositories(_ref) {
       key: repo.id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20
+        lineNumber: 18
       },
       __self: this
     });
@@ -591,53 +571,51 @@ var socialMedia = [{
   icon: 'fab fa-linkedin',
   url: 'https://linkedin.com/in/orlmonteverde'
 }];
+var styles = {
+  button: {
+    position: 'fixed',
+    bottom: '1rem',
+    right: '1rem'
+  }
+};
 
-var SocialButton = function SocialButton(_ref) {
-  var children = _ref.children;
+var SocialButton = function SocialButton() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(material_ui_popup_state_index__WEBPACK_IMPORTED_MODULE_7___default.a, {
     variant: "popover",
     popupId: "popup-menu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 42
     },
     __self: this
   }, function (popupState) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36
+        lineNumber: 44
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_1___default.a, _extends({
       color: "secondary",
-      variant: "contained"
+      variant: "fab",
+      style: styles.button
     }, Object(material_ui_popup_state_index__WEBPACK_IMPORTED_MODULE_7__["bindTrigger"])(popupState), {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 37
+        lineNumber: 45
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
       className: "fas fa-user",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38
+        lineNumber: 46
       },
       __self: this
-    }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-      style: {
-        marginLeft: '.5rem'
-      },
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Menu__WEBPACK_IMPORTED_MODULE_2___default.a, _extends({}, Object(material_ui_popup_state_index__WEBPACK_IMPORTED_MODULE_7__["bindMenu"])(popupState), {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 39
-      },
-      __self: this
-    }, children)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Menu__WEBPACK_IMPORTED_MODULE_2___default.a, _extends({}, Object(material_ui_popup_state_index__WEBPACK_IMPORTED_MODULE_7__["bindMenu"])(popupState), {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 41
+        lineNumber: 48
       },
       __self: this
     }), socialMedia.map(function (s, i) {
@@ -646,7 +624,7 @@ var SocialButton = function SocialButton(_ref) {
         onClick: popupState.close,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 50
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -655,26 +633,26 @@ var SocialButton = function SocialButton(_ref) {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 51
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_ListItemIcon__WEBPACK_IMPORTED_MODULE_6___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 52
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         className: s.icon,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 53
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_5___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 55
         },
         __self: this
       }, s.title)));
@@ -28512,7 +28490,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_repositories__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/repositories */ "./components/repositories/index.js");
 /* harmony import */ var _components_about_me__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/about-me */ "./components/about-me/index.js");
 /* harmony import */ var _components_spinner__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/spinner */ "./components/spinner/index.js");
-/* harmony import */ var _config_theme__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../config/theme */ "./config/theme.js");
+/* harmony import */ var _components_social_button__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/social-button */ "./components/social-button/index.js");
+/* harmony import */ var _config_theme__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../config/theme */ "./config/theme.js");
 var _jsxFileName = "/home/orlando/Webprojects/React/portfolio/pages/index.js";
 
 
@@ -28533,6 +28512,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
 
 
 
@@ -28583,10 +28563,6 @@ function (_Component) {
         _this2.setState({
           repos: repositories
         });
-
-        console.log(repositories.map(function (r) {
-          return r.language;
-        }));
       }).catch(function (err) {
         return console.log(err);
       });
@@ -28613,7 +28589,7 @@ function (_Component) {
         },
         __self: this
       }, "Orlando Monteverde")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__["MuiThemeProvider"], {
-        theme: _config_theme__WEBPACK_IMPORTED_MODULE_10__["theme"],
+        theme: _config_theme__WEBPACK_IMPORTED_MODULE_11__["theme"],
         __source: {
           fileName: _jsxFileName,
           lineNumber: 46
@@ -28637,10 +28613,29 @@ function (_Component) {
           lineNumber: 49
         },
         __self: this
+      }), this.state.repos ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_repositories__WEBPACK_IMPORTED_MODULE_7__["default"], {
+        repos: this.state.repos,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50
+        },
+        __self: this
+      }) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_spinner__WEBPACK_IMPORTED_MODULE_9__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50
+        },
+        __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_main_footer__WEBPACK_IMPORTED_MODULE_6__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 51
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_social_button__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52
         },
         __self: this
       })));
