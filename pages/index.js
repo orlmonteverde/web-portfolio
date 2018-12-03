@@ -5,6 +5,7 @@ import { MuiThemeProvider } from '@material-ui/core/styles'
 
 import GetRepos from '../services/get-repositories'
 import MainHeader from '../components/main-header'
+import MainFooter from '../components/main-footer'
 import Repositories from '../components/repositories'
 import AboutMe from '../components/about-me'
 import Spinner from '../components/spinner'
@@ -29,7 +30,7 @@ class Index extends Component {
     GetRepos(URL)
       .then(result => {
         let repositories = result.data
-          .filter(repo => !repo.fork && repo.name !== 'orlmonteverde.github.io')
+          .filter(repo => !repo.fork && repo.homepage)
         this.setState({ repos: repositories })
         console.log(repositories.map(r => r.language))
       })
@@ -46,7 +47,8 @@ class Index extends Component {
           <MainHeader />
           <CssBaseline />
           <AboutMe />
-          { this.state.repos ? <Repositories repos={this.state.repos} /> : <Spinner /> }
+          { /* this.state.repos ? <Repositories repos={this.state.repos} /> : <Spinner /> */}
+          <MainFooter />
         </MuiThemeProvider>
       </Fragment>
     )

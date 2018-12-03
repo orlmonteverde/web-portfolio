@@ -5,7 +5,8 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 100vh;
+  padding: 3rem 0;
+  min-height: 100vh;
   width: 100%;
   overflow: hidden;
   display: flex;
@@ -31,10 +32,15 @@
   ._3hCbVbkyrwihwpWmhO5EQX {
     margin-top: .5rem; }
 
+._2qlT8Ma9OB0ASeW1bpZjI0 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem; }
+
 ._162zYO2QG-bKYDN_YNE_XF {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: space-evenly; }
 
 ._2X0cjY7iXHbj0jQ2Fetldo {

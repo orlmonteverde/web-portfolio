@@ -15,6 +15,12 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
+      "id": "./components/main-footer/index.scss",
+      "name": "./components/main-footer/index.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
       "id": "./components/repositories/index.scss",
       "name": "./components/repositories/index.scss",
       "file": "static/chunks/styles.js",
@@ -36,6 +42,12 @@
   "undefined": [
     {
       "id": 4,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 8,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"

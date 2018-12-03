@@ -8,9 +8,25 @@ import Typography from '@material-ui/core/Typography'
 
 const styles = {
   width: '30%',
-  maxWidth: 345,
-  minWidth: 200,
+  maxWidth: '345px',
+  minWidth: '280px',
   marginBottom: '1rem'
+}
+
+const getImage = language => {
+  const prefix = '/static/'
+  language = language.toLowerCase()
+
+  switch (language) {
+    case 'python':
+      return prefix + 'banner-python.jpg'
+    case 'go':
+      return prefix + 'banner-go.jpg'
+    case 'javascript':
+      return prefix + 'banner-javascript.jpg'
+    default:
+      return prefix + 'banner-web.jpg'
+  }
 }
 
 const RepositoryCard = ({ repo }) => (
@@ -21,7 +37,7 @@ const RepositoryCard = ({ repo }) => (
         alt='programming language image'
         style={{ objectFit: 'cover' }}
         height='140'
-        image='/static/wallpaper.jpg'
+        image={getImage(repo.language)}
         title='Programming language image'
       />
       <CardContent>
@@ -33,7 +49,7 @@ const RepositoryCard = ({ repo }) => (
         </Typography>
       </CardContent>
     </CardActionArea>
-    <CardActions>
+    <CardActions style={{ display: 'flex', justifyContent: 'center' }}>
       <Button size='small' color='primary' component='a' href={repo.html_url} target='_blank'>Resositorio</Button>
       { repo.homepage && <Button size='small' color='secondary' component='a' href={repo.homepage} target='_blank'>Demo</Button> }
     </CardActions>

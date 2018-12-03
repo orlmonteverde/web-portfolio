@@ -8,7 +8,7 @@ const AboutMe = ({ repos }) => (
       color='textPrimary'
       align='center'
       component='h3'
-      gutterButton
+      gutterBottom
       variant='h3'
       style={{ width: '100%', margin: '2rem auto' }}
     >
